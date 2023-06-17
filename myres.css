@@ -1,0 +1,188 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type:none;
+  padding: 0;
+}
+
+/* Education section styles */
+#education {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills section styles */
+#skills {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  list-style-type:circle;
+  /* line-height: 10px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects section styles */
+#projects {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* display:inline-block; */
+}
+
+/* Achievements section styles */
+#achievements {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsibilities section styles */
+#responsibilities {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #e91e63;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff4081;
+}
+
+/* Additional CSS3 features */
+
+/* Transitions */
+header,
+h2,
+h3,
+a {
+  transition: all 0.3s ease;
+}
+
+header:hover {
+  transform: rotate(5deg);
+}
+
+h2:hover {
+  color: #e91e63;
+}
+
+h3:hover {
+  color: #ff4081;
+}
+
+a:hover {
+  color: #ff4081;
+}
+
+/* Box Shadows */
+#education,
+#skills,
+#projects,
+#achievements,
+#responsibilities {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Rounded corners */
+#education,
+#skills,
+#projects,
+#achievements,
+#responsibilities,
+header,
+footer {
+  border-radius: 10px;
+}
+
+/* Text shadow */
+h1,
+h2,
+h3,
+ul li {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Background gradient */
+header {
+  background-image: linear-gradient(to right, #333, #444);
+  color: #fff;
+}
+
+footer {
+  background-image: linear-gradient(to right, #444, #555);
+  color: #fff;
+}
+
+/* Text animation */
+h1 {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  to {
+    text-shadow: -2px -2px 4px rgba(0, 0, 0, 0.2);
+  }
+}

@@ -15,6 +15,12 @@ header {
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header:hover {
+  background-color: #555;
+  color: #ff4081;
 }
 
 h1 {
@@ -30,6 +36,7 @@ h2 {
 h3 {
   font-size: 18px;
   margin: 10px 0;
+  text-align: center;
 }
 
 ul {
@@ -109,7 +116,6 @@ a:hover {
 /* Additional CSS3 features */
 
 /* Transitions */
-header,
 h2,
 h3,
 a {

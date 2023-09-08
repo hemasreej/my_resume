@@ -6,29 +6,29 @@ body, h1, h2, h3, ul, p, a {
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #1a1a1a; /* Dark background color */
-  color: #ffffff; /* Text color */
+  background: linear-gradient(to bottom, #222, #111); /* Gradient background */
+  color: #fff; /* Text color */
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
-/* Header styling */
-h1 {
+/* Center the header content */
+#header-content {
   background-color: #b22222; /* Firebrick red background color */
   color: #ffffff; /* White text color */
-  padding: 20px 0;
-  font-size: 36px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  transition: background-color 0.3s ease; /* Smooth background color transition */
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  backdrop-filter: blur(10px); /* Adds a subtle blur effect to the background */
 }
 
 /* Hover effect on the "HEMASREE JONNALAGADDA" section */
-h1:hover {
+#header-content:hover {
   background-color: #ff6347; /* Tomato red background color on hover */
 }
 
@@ -37,12 +37,12 @@ ul {
   list-style-type: none;
   margin-top: 20px;
   padding: 0;
-  text-align: left; /* Align text to the left within the block */
+  text-align: left;
 }
 
 li {
   margin: 10px 0;
-  transition: background-color 0.3s ease; /* Smooth background color transition */
+  transition: background-color 0.3s ease;
 }
 
 a {
@@ -60,6 +60,45 @@ a:hover {
   color: #ff4500; /* Red color on hover */
 }
 
+/* Rest of your existing styles for other sections and elements */
+/* ... */
+
+/* Additional styling for the "Education" section */
+#education {
+  background-color: #3498db; /* Royal blue background color */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the headings within the "Education" section */
+#education h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  text-transform: uppercase; /* Uppercase headings */
+}
+
+/* Additional styling for the paragraphs within the "Education" section */
+#education p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.6; /* Improved line spacing */
+}
+
+/* Additional styling for the "Skills" section */
+#skills {
+  background-color: #27ae60; /* Emerald green background color */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for other specific sections or elements as needed */
+/* Add more custom styles to enhance the design */
+/* Additional styling for other specific sections or elements as needed */
+
 /* Section styling */
 section {
   background-color: #2c3e50; /* Midnight blue background color */
@@ -67,7 +106,7 @@ section {
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  text-align: left; /* Align text to the left within sections */
+  text-align: left;
 }
 
 /* Section headings */
@@ -110,58 +149,33 @@ footer {
   padding: 10px 0;
 }
 
-/* Additional styling for the "Education" section */
-#education {
+/* Additional styling for specific sections or elements as needed */
+/* Add more custom styles to enhance the design */
+
+/* Additional styling for the "Projects" section */
+#projects {
   background-color: #3498db; /* Royal blue background color */
   color: #ffffff; /* White text color */
-  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Additional styling for the headings within the "Education" section */
-#education h3 {
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-/* Additional styling for the paragraphs within the "Education" section */
-#education p {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-/* Additional styling for the "Skills" section */
-#skills {
-  background-color: #27ae60; /* Emerald green background color */
+/* Additional styling for the "Certifications" section */
+#certifications {
+  background-color: #e67e22; /* Carrot orange background color */
   color: #ffffff; /* White text color */
-  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Additional styling for other specific sections or elements as needed */
-/* Additional styling for other specific sections or elements as needed */
-/* Add your custom styles here */
-
-#projects {
-  background-color: #ffcc00; /* Custom background color for the "projects" section */
-  color: #333333; /* Custom text color for the "projects" section */
-  padding: 20px;
+/* Additional styling for the "Achievements" section */
+#achievements {
+  background-color: #9b59b6; /* Amethyst purple background color */
+  color: #ffffff; /* White text color */
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Add more custom styling as needed */
-/* Add more custom styling as needed */
-/* Add your custom styles here */
-
-#myCustomSection {
-  background-color: #ff9900; /* Custom background color */
-  color: #ffffff; /* Custom text color */
-  padding: 20px;
+/* Additional styling for the "Positions of Responsibility" section */
+#responsibilities {
+  background-color: #f39c12; /* Sunflower yellow background color */
+  color: #ffffff; /* White text color */
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-/* Add more custom styles for other sections or elements as needed */

@@ -1,4 +1,4 @@
-Body styles
+/* Reset some default styles for the body */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -33,7 +33,7 @@ h3 {
 }
 
 ul {
-  list-style-type:none;
+  list-style-type: none;
   padding: 0;
 }
 
@@ -52,8 +52,7 @@ ul {
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 5px;
-  list-style-type:circle;
-  /* line-height: 10px; */
+  list-style-type: circle;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -64,7 +63,6 @@ ul {
   margin-bottom: 30px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* display:inline-block; */
 }
 
 /* Achievements section styles */

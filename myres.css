@@ -24,6 +24,12 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   letter-spacing: 2px;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Hover effect on the "HEMASREE JONNALAGADDA" section */
+h1:hover {
+  background-color: #ff6347; /* Tomato red background color on hover */
 }
 
 /* Top block styling */
@@ -104,7 +110,6 @@ footer {
   padding: 10px 0;
 }
 
-/* Add additional styling for specific sections or elements as needed */
 /* Additional styling for the "Education" section */
 #education {
   background-color: #3498db; /* Royal blue background color */
@@ -136,3 +141,27 @@ footer {
 }
 
 /* Additional styling for other specific sections or elements as needed */
+/* Additional styling for other specific sections or elements as needed */
+/* Add your custom styles here */
+
+#projects {
+  background-color: #ffcc00; /* Custom background color for the "projects" section */
+  color: #333333; /* Custom text color for the "projects" section */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Add more custom styling as needed */
+/* Add more custom styling as needed */
+/* Add your custom styles here */
+
+#myCustomSection {
+  background-color: #ff9900; /* Custom background color */
+  color: #ffffff; /* Custom text color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Add more custom styles for other sections or elements as needed */

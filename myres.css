@@ -11,19 +11,22 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Style the header with a royal blue background and white text */
+/* Style the header with a royal purple background and gold text */
 h1 {
-  background-color: #3498db; /* Royal blue background color */
-  color: #fff; /* White text color */
-  padding: 10px 20px;
+  background-color: #8e44ad; /* Royal purple background color */
+  color: #f1c40f; /* Gold text color */
+  padding: 20px;
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 36px;
+  text-align: center;
   margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
 }
 
 /* Add a hover effect to the header */
 h1:hover {
-  background-color: #2980b9; /* Slightly darker blue on hover */
+  background-color: #663399; /* Darker purple on hover */
 }
 
 /* Style the links in the "LinkedIn" section */
@@ -35,26 +38,33 @@ a {
 /* Add a hover effect to the links */
 a:hover {
   text-decoration: underline; /* Underline links on hover */
+  color: #c0392b; /* Darker red on hover */
 }
 
 /* Style the sections */
 section {
   margin-bottom: 30px;
+  background-color: #34495e; /* Dark gray background color for sections */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow to sections */
 }
 
 /* Style the headings of sections */
 h2 {
-  background-color: #3498db;
-  color: #fff;
-  padding: 5px 10px;
+  background-color: #8e44ad; /* Royal purple background color */
+  color: #f1c40f; /* Gold text color */
+  padding: 10px 20px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
 }
 
 /* Add a hover effect to the section headings */
 h2:hover {
-  background-color: #2980b9;
+  background-color: #663399; /* Darker purple on hover */
 }
 
 /* Style the list items */

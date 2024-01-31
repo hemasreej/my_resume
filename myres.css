@@ -7,10 +7,16 @@ body, h1, h2, h3, ul, p, a {
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f0f0; /* Light background color */
-  color: #333333; /* Text color */
+  background-color: #1a1a1a; /* Dark background color */
+  color: #ffffff; /* Text color */
   text-align: center;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 /* Header styling */
@@ -22,6 +28,11 @@ header {
   font-weight: bold;
   letter-spacing: 2px;
   margin: 10px;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+header:hover {
+  background-color: #2980b9; /* Darker blue on hover */
 }
 
 header p {
@@ -31,11 +42,17 @@ header p {
 
 /* Top block styling */
 .contact {
-  background-color: #ecf0f1; /* Light gray background color */
+  background-color: #2c3e50; /* Midnight blue background color */
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  transition: box-shadow 0.3s ease; /* Smooth box-shadow transition */
+}
+
+.contact:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Bigger shadow on hover */
 }
 
 .contact h2 {
@@ -46,11 +63,13 @@ header p {
 .contact p {
   font-size: 16px;
   margin-bottom: 8px;
+  transition: color 0.3s ease; /* Smooth text color transition */
 }
 
 .contact a {
   color: #3498db; /* Royal blue color for links */
   text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
 .contact a:hover {

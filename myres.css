@@ -93,7 +93,6 @@ li:before {
   color: #ff4500; /* Red bullet point color */
   margin-right: 5px;
 }
-
 /* Hover effect on sections */
 section:hover {
   background-color: #34495e; /* Darker background color on hover */
@@ -105,11 +104,6 @@ footer {
   color: #ffffff; /* White text color */
   padding: 10px 0;
 }
-
-/* Additional styling for the "Education" section */
-
-/* Rest of your existing styles for other sections and elements */
-/* ... */
 
 /* Additional styling for the "Education" section */
 #education {
@@ -145,66 +139,13 @@ footer {
 
 /* Additional styling for other specific sections or elements as needed */
 /* Add more custom styles to enhance the design */
-/* Additional styling for other specific sections or elements as needed */
-
-/* Section styling */
-section {
-  background-color: #2c3e50; /* Midnight blue background color */
-  padding: 30px;
-  margin: 20px 0;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  text-align: left;
-}
-
-/* Section headings */
-h2 {
-  background-color: #1e90ff; /* Dodger blue background color */
-  color: #ffffff; /* White text color */
-  font-size: 24px;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-/* List styling */
-ul, li {
-  text-align: left;
-}
-
-/* Date styling */
-em {
-  font-weight: bold;
-  color: #ff4500; /* Red color for dates */
-}
-
-/* Highlighted list items */
-li:before {
-  content: "\2022"; /* Bullet point */
-  color: #ff4500; /* Red bullet point color */
-  margin-right: 5px;
-}
-
-/* Hover effect on sections */
-section:hover {
-  background-color: #34495e; /* Darker background color on hover */
-}
-
-/* Footer styling */
-footer {
-  background-color: #333333; /* Dark gray background color */
-  color: #ffffff; /* White text color */
-  padding: 10px 0;
-}
-
-/* Additional styling for specific sections or elements as needed */
-/* Add more custom styles to enhance the design */
-
 /* Additional styling for the "Projects" section */
 #projects {
   background-color: #3498db; /* Royal blue background color */
   color: #ffffff; /* White text color */
   border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
 }
 
 /* Additional styling for the "Certifications" section */
@@ -212,6 +153,8 @@ footer {
   background-color: #e67e22; /* Carrot orange background color */
   color: #ffffff; /* White text color */
   border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
 }
 
 /* Additional styling for the "Achievements" section */
@@ -219,6 +162,8 @@ footer {
   background-color: #9b59b6; /* Amethyst purple background color */
   color: #ffffff; /* White text color */
   border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
 }
 
 /* Additional styling for the "Positions of Responsibility" section */
@@ -226,4 +171,119 @@ footer {
   background-color: #f39c12; /* Sunflower yellow background color */
   color: #ffffff; /* White text color */
   border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the "Projects" section */
+#projects {
+  background-color: #3498db; /* Royal blue background color */
+  color: #ffffff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the "Certifications" section */
+#certifications {
+  background-color: #e67e22; /* Carrot orange background color */
+  color: #ffffff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+/* Additional styling for the "Contact" section */
+#contact {
+  background-color: #e74c3c; /* Alizarin red background color */
+  color: #ffffff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the "Header" */
+header {
+  background: linear-gradient(to right, #3498db, #b22222); /* Gradient background */
+  padding: 20px 0;
+}
+
+/* Additional styling for the "Skills" section */
+#skills {
+  background-color: #27ae60; /* Emerald green background color */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the "Experience" section */
+#experience {
+  background-color: #16a085; /* Green sea background color */
+  color: #ffffff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the "Footer" */
+footer {
+  background-color: #333333; /* Dark gray background color */
+  color: #ffffff; /* White text color */
+  padding: 20px 0;
+}
+
+/* Additional styling for specific sections or elements as needed */
+/* Add more custom styles to enhance the design */
+/* Additional styling for the "Hotel Reservation Cancellation Prediction" project */
+#hotel-project {
+  background-color: #3498db; /* Royal blue background color */
+  color: #ffffff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the "Fluido Capteur" project */
+#fluido-project {
+  background-color: #2ecc71; /* Emerald green background color */
+  color: #ffffff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the "Gait Revive" project */
+#gait-project {
+  background-color: #e74c3c; /* Alizarin red background color */
+  color: #ffffff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the "Research Paper" section */
+#research-paper {
+  background-color: #1e90ff; /* Dodger blue background color */
+  color: #ffffff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the "Web Design and Development Certification" */
+#web-certification {
+  background-color: #e67e22; /* Carrot orange background color */
+  color: #ffffff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
+}
+
+/* Additional styling for the "Codechef Ranking" */
+#codechef-ranking {
+  background-color: #27ae60; /* Emerald green background color */
+  color: #ffffff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
 }
